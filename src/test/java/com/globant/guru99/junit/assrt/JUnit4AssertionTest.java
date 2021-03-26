@@ -16,8 +16,8 @@ public class JUnit4AssertionTest {
         String string5 = null;
         int variable1 = 1;
         int variable2 = 2;
-        int[] airethematicArray1 = {1, 2, 3};
-        int[] airethematicArray2 = {1, 2, 3};
+        int[] arithmeticArray1 = {1, 2, 3};
+        int[] arithmeticArray2 = {1, 2, 3};
 
         // Assert statements
         assertEquals(string1, string2);
@@ -26,6 +26,6 @@ public class JUnit4AssertionTest {
         assertNotNull(string1);
         assertNull(string5);
         assertTrue(variable1 < variable2);
-        assertArrayEquals(airethematicArray1, airethematicArray2);
+        assertArrayEquals(arithmeticArray1, arithmeticArray2);
     }
 }
