@@ -26,13 +26,13 @@ hs_err_pid*
 
 ### Example user template
 
-# IntelliJ project files
+## IntelliJ project files
 .idea
 *.iml
 out
 gen
 
-# Eclipse project files
+## Eclipse project files
 .metadata
 bin/
 tmp/
