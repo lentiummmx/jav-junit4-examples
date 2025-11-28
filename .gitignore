@@ -98,3 +98,9 @@ local.properties
 
 # Eclipse build
 target/
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
